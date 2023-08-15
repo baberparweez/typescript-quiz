@@ -8,7 +8,7 @@ interface ComponentProps {
 
 let skillLevel: string;
 let description: string;
-let benefits: any;
+// let benefits: any;
 let image: any;
 
 const Results = ({ score, resultsImage }: ComponentProps) => {
@@ -17,37 +17,37 @@ const Results = ({ score, resultsImage }: ComponentProps) => {
         skillLevel = "Expert";
         description =
             "You are a TypeScript pro! Your knowledge of TypeScript is impressive. Keep up the great work!";
-        benefits = (
-            <>
-                <span>Benefit number 1</span>
-                <span>Benefit number 2</span>
-                <span>Benefit number 3</span>
-            </>
-        );
+        // benefits = (
+        //     <>
+        //         <span>Benefit number 1</span>
+        //         <span>Benefit number 2</span>
+        //         <span>Benefit number 3</span>
+        //     </>
+        // );
     } else if (score >= 80 && score <= 115) {
         image = resultsImage;
         skillLevel = "Intermediate";
         description =
             "You have a good grasp of TypeScript fundamentals. Keep honing your skills!";
-        benefits = (
-            <>
-                <span>Benefit number 1</span>
-                <span>Benefit number 2</span>
-                <span>Benefit number 3</span>
-            </>
-        );
+        // benefits = (
+        //     <>
+        //         <span>Benefit number 1</span>
+        //         <span>Benefit number 2</span>
+        //         <span>Benefit number 3</span>
+        //     </>
+        // );
     } else if (score <= 75) {
         image = resultsImage;
         skillLevel = "Beginner";
         description =
             "You are just starting with TypeScript! Keep learning and practicing, and you'll become proficient soon.";
-        benefits = (
-            <>
-                <span>Benefit number 1</span>
-                <span>Benefit number 2</span>
-                <span>Benefit number 3</span>
-            </>
-        );
+        // benefits = (
+        //     <>
+        //         <span>Benefit number 1</span>
+        //         <span>Benefit number 2</span>
+        //         <span>Benefit number 3</span>
+        //     </>
+        // );
     }
 
     // GTM datalayer push

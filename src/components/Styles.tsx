@@ -68,7 +68,7 @@ ${fontImport}
 #root .quiz-box {
 	background: ${white};
 	border: 1px solid #cdcdcd;
-	border-radius: 1.875rem;
+	border-radius: 30px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 2.8125rem;
@@ -114,7 +114,7 @@ ${fontImport}
 	appearance: none;
 	background: ${primaryColour};
 	border: none;
-	border-radius: 2.5rem;
+	border-radius: 10px;
 	color: ${white};
 	cursor: pointer;
 	font-family: ${fontFamily};
@@ -412,13 +412,13 @@ ${fontImport}
     margin: 0 auto;
 	object-fit: cover;
     position: absolute;
-    top: 0;
+	top: 50px;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
-    height: 100%;
-	width: 80%;
+    height: 50%;
+    width: 40%;
 }
 #root .quiz-box > div > .quiz-results-loading .loading-points {
 	display: flex;
@@ -468,7 +468,7 @@ ${fontImport}
 }
 #root .quiz-results p,
 #root .quiz-results .benefits span {
-	color: #3a3a3a;
+	color: ${black};
 	font-size: 1rem;
 	font-weight: 400;
 	text-align: center;
@@ -499,7 +499,7 @@ ${fontImport}
 	width: calc(50% - 0.25rem);
 }
 #root .quiz-results .buttons .button.outline {
-	border: 1px solid #3a3a3a;
+	border: 1px solid ${secondaryColour};
 	background-color: ${white};
 }
 #root .quiz-results .buttons .button a {
@@ -507,7 +507,7 @@ ${fontImport}
 	text-decoration: none;
 }
 #root .quiz-results .buttons .button.outline a {
-	color: #3a3a3a;
+	color: ${secondaryColour};
 }
 @keyframes fadeIn {
 	from {

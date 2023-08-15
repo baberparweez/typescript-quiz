@@ -27,7 +27,7 @@ const Break = ({
             {contentType === "quote" ? (
                 <>
                     <span className="author">
-                        <b>{author}</b>, Elder Customer
+                        <b>{author}</b>
                     </span>
                 </>
             ) : (

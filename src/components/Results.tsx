@@ -26,9 +26,9 @@ const Results = ({ score, resultsImage }: ComponentProps) => {
         );
     } else if (score >= 80 && score <= 115) {
         image = resultsImage;
-        skillLevel = "Intermmediate";
+        skillLevel = "Intermediate";
         description =
-            "You are a TypeScript pro! Your knowledge of TypeScript is impressive. Keep up the great work!";
+            "You have a good grasp of TypeScript fundamentals. Keep honing your skills!";
         benefits = (
             <>
                 <span>Benefit number 1</span>
@@ -40,7 +40,7 @@ const Results = ({ score, resultsImage }: ComponentProps) => {
         image = resultsImage;
         skillLevel = "Beginner";
         description =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit maecenas lacinia. With Elder care you can:";
+            "You are just starting with TypeScript! Keep learning and practicing, and you'll become proficient soon.";
         benefits = (
             <>
                 <span>Benefit number 1</span>
@@ -71,15 +71,13 @@ const Results = ({ score, resultsImage }: ComponentProps) => {
             <img src={image} alt={skillLevel} />
             <h4>Your skill level is {skillLevel}</h4>
             <p>{description}</p>
-            <div className="benefits">{benefits}</div>
+            {/* <div className="benefits">{benefits}</div> */}
             <div className="buttons">
                 <button type="button" className="button">
-                    <a href="https://my.elder.org/register/welcome">
-                        Get started
-                    </a>
+                    <a href="https://www.typescriptlang.org/docs/">Docs</a>
                 </button>
                 <button type="button" className="button outline">
-                    <a href="#">Learn more</a>
+                    <a href="https://www.typescriptlang.org/">Learn more</a>
                 </button>
             </div>
         </div>

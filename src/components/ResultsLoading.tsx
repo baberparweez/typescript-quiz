@@ -28,7 +28,7 @@ const ResultsLoading = ({
             </div>
             <div className="loading-points">
                 <span>Collecting results...</span>
-                <span>Finding best care match...</span>
+                <span>Calculating your score...</span>
                 <span>Complete</span>
             </div>
         </div>

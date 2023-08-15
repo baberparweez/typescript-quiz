@@ -89,13 +89,13 @@ Before you begin, ensure that you have the following prerequisites installed:
 1. Clone the assistant-chat-gpt repository:
 
 ```sh
-git clone https://github.com/Level-Design-Ltd/type-of-care.git
+git clone https://github.com/baberparweez/typescript-quiz.git
 ```
 
 2. Change to the project directory:
 
 ```sh
-cd type-of-care
+cd typescript-quiz
 ```
 
 3. Install the dependencies:

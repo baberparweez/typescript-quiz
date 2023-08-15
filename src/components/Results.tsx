@@ -11,7 +11,7 @@ let description: string;
 let benefits: any;
 let image: any;
 
-const Results = ({ score, answers, resultsImage }: ComponentProps) => {
+const Results = ({ score, resultsImage }: ComponentProps) => {
     if (score >= 120) {
         image = resultsImage;
         skillLevel = "Expert";

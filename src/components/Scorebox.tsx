@@ -1,3 +1,5 @@
+import React from "react";
+
 interface ComponentProps {
     current: any;
     total: number;

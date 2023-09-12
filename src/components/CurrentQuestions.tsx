@@ -1,3 +1,5 @@
+import React from "react";
+
 interface ComponentProps {
     question: any;
     setChecked: any;

@@ -37,7 +37,7 @@ repo
 ├── tsconfig.js
 ├── tsconfig.node.json
 ├── vite.config.js
-├── yarn.lock
+├── bun.lockb
 └── src
     ├── assets
     │   ├── loading.gif
@@ -81,7 +81,7 @@ repo
 Before you begin, ensure that you have the following prerequisites installed:
 
 > -   `ℹ️ Node.js (minimum version 16)`
-> -   `ℹ️ NPM or Yarn`
+> -   `ℹ️ Bun`
 > -   `ℹ️ react-transition-group`
 
 ### 💻 Installation
@@ -101,21 +101,19 @@ cd typescript-quiz
 3. Install the dependencies:
 
 ```sh
-npm or yarn install
-
-If required, run npm install/yarn add react-transition-group (make sure it is inside node_modules folder)
+bun install
 ```
 
 ### 🎮 Running dev server
 
 ```sh
-npm or yarn run dev
+bun run dev
 ```
 
 ### 🧪 Compiling build
 
 ```sh
-npm or yarn run build
+bun run build
 ```
 
 ---
